@@ -56,7 +56,7 @@ function App() {
                   <div className="flex">
                     <TbActivityHeartbeat size={18} className="text-white ml-4" />
                     <p className="text-white text-[12px] font-roboto font-semibold ml-4">Every UI needs a toggle</p>
-                    <div className="flex justify-center items-center bg-[#111] ml-11">
+                    <div className="flex justify-center items-center ml-11">
                         <button
                             onClick={() => setEnabled(!enabled)}
                             className={`w-8 h-5 flex items-center rounded-full p-1 transition-all duration-300 ${
